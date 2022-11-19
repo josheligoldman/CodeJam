@@ -11,7 +11,8 @@
             "https://twitter.com/*"
           ],
           "run_at": "document_idle",   
-          "js": ["scripts/content.js"]
+          "js": ["scripts/content.js"],
+          "css": ["stylesheets/styles.css"]
         }
     ]
 }

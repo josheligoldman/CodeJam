@@ -1,0 +1,11 @@
+.round-hover {
+    border-radius: 50%;
+    height: 17px !important;
+    width: 17px !important;
+}
+
+.round-hover:hover {
+    -webkit-box-shadow: 0px 0px 8px 5px black;
+    -moz-box-shadow: 0px 0px 8px 2px light green;
+    box-shadow: 0px 0px 8px 2px light blue;
+}

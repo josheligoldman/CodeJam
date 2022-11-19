@@ -42,12 +42,15 @@ function mutation_callback(mutations) {
 
         badge = document.createElement('div');
         badge.id = "our_icons";
-        badge.classList.add('css-1dbjc4n', 'r-18u37iz', 'r-1h0z5md')
-
+        badge.classList.add('css-1dbjc4n', 'r-18u37iz', 'r-1h0z5md', 'round-hover');
+        
         icon = document.createElement('img');
-        icon.src = 'https://raw.githubusercontent.com/josheligoldman/CodeJam/main/miss_information/mag1_10.svg';
+        icon.src = 'https://raw.githubusercontent.com/josheligoldman/CodeJam/main/miss_information/mag1_6.svg';
         badge.appendChild(icon);
         badge_child.appendChild(badge);
+
+        console.log()
+
     }
     mutationObserver = new MutationObserver(mutation_callback);
 
