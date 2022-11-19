@@ -45,7 +45,7 @@ function mutation_callback(mutations) {
         badge.classList.add('css-1dbjc4n', 'r-18u37iz', 'r-1h0z5md')
 
         icon = document.createElement('img');
-        icon.src = 'https://iili.io/HHHg6y7.png';
+        icon.src = 'https://raw.githubusercontent.com/josheligoldman/CodeJam/main/miss_information/mag1.svg';
         badge.appendChild(icon);
         badge_child.appendChild(badge);
     }
