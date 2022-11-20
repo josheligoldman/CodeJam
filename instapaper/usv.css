@@ -1,0 +1,16 @@
+.action-instapaper i {
+    background-size:12px;
+    width:12px;
+    height:12px;
+    margin-left:6px;
+    /*-webkit-mask-image: url('chrome-extension://__MSG_@@extension_id__/instapaper_twitter_mask_small.png');*/
+    -webkit-mask-image: url('https://github.com/josheligoldman/CodeJam/blob/main/miss_information/mag1_10.svg');
+    background-color: #86aa3b;
+    display: inline-block;
+    margin-top:2px;
+}
+
+.action-instapaper img {
+    margin-left:6px !important;
+}
+

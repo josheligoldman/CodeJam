@@ -33,15 +33,6 @@
     position: absolute;
     z-index: 1;
   }
-
-  .tooltiptext {
-    bottom: 100%;
-    left: 50%;
-    margin-left: -100px;
-    overflow: scroll;
-    display: block;
-    overflow: auto;
-  }
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -155,3 +146,4 @@
   .size_of_img{
       width:90px
   }
+  

@@ -88,9 +88,7 @@ function addMissInformationAction() {
             }
         );
 
-        //like_button.parentNode.appendChild(miss_information_element);
-        like_button.parentNode.insertBefore(miss_information_element, like_button); 
-
+        like_button.parentNode.appendChild(miss_information_element);
     }
     
 }
