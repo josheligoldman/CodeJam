@@ -16,6 +16,62 @@
 }
 
 
+/* Hover Box */
+.hover-box-anchor {
+    position: relative;
+    display: block;
+}
+
+.hover-box-anchor .hover-box {
+    display: flex;
+    position: relative;
+    visibility: hidden;
+    background-color: white;
+    border: 5px solid #1DA1F2;
+    width: 80%;
+    margin: auto;
+    border-radius: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe   UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+}
+.hover-box-anchor:hover .hover-box {
+    visibility: visible;
+}
+
+.hover-box-anchor:hover .hover-box .article {
+    width: 33.3333333%;
+    border-radius: 5%;
+    background-color: white;
+    margin: 10px;
+    font-size: 30px;
+    height: 400px;
+    text-align: center;
+}
+
+.hover-box-anchor:hover .hover-box .article-image {
+    object-fit: cover;
+    border-radius: 7.5px;
+    height: 50%;
+    width: 100%;
+    box-shadow: 0px 8px 15px #696969;
+}
+
+.hover-box-anchor:hover .hover-box .article-header {
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: georgia,'times new roman',times,serif;
+    color: black;
+}
+
+.hover-box-anchor:hover .hover-box .article-abstract {
+    margin: 10px;
+    padding: 0px;
+    color: grey;
+    font-size: 16px;
+}
+  
+
 
 /* Tooltip */
 .tooltip {
